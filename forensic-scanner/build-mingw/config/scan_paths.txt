@@ -1,0 +1,16 @@
+# Дополнительные пути для сканирования
+# По умолчанию сканируются:
+# - %APPDATA%\Microsoft\Windows\Recent
+# - C:\Windows\Prefetch
+# Здесь можно добавить дополнительные директории
+
+# Примеры:
+# %USERPROFILE%\Downloads
+# %USERPROFILE%\Desktop
+# %TEMP%
+# C:\Games
+# D:\Games
+
+# Раскомментируйте нужные пути или добавьте свои:
+# %USERPROFILE%\Downloads
+# %USERPROFILE%\Desktop

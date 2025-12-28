@@ -1,0 +1,61 @@
+# Ключевые слова для поиска
+# Каждое слово на отдельной строке
+# Строки начинающиеся с # - комментарии
+
+# Английские термины
+cheat
+cheats
+hack
+hacks
+aimbot
+wallhack
+esp
+inject
+injector
+bypass
+spoofer
+vanish
+godmode
+mod menu
+modmenu
+undetected
+hwid
+rage
+legit
+skin changer
+triggerbot
+exploit
+trainer
+loader
+crack
+keygen
+patch
+
+# Русские термины
+чит
+читы
+хак
+хаки
+аимбот
+валхак
+инжектор
+байпас
+спуфер
+годмод
+модменю
+рейдж
+легит
+скин ченджер
+триггербот
+эксплойт
+трейнер
+лоадер
+крак
+
+# Конкретные названия (примеры)
+unknowncheats
+mpgh
+gamehacking
+wemod
+cheatengine
+artmoney

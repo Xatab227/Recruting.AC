@@ -1,0 +1,31 @@
+# База данных хешей запрещённого ПО
+# Формат: hash|category|name|weight
+# hash - SHA-256 хеш файла
+# category - категория (cheats, injectors, modmenu, trainers, tools)
+# name - название программы
+# weight - вес триггера (0-100)
+
+# Примеры записей (замените на реальные хеши):
+# a1b2c3d4e5f6...|cheats|CheatEngine|45
+# f6e5d4c3b2a1...|injectors|ExtremeInjector|50
+# 1234567890ab...|modmenu|UnknownModMenu|40
+
+# Читы
+# example_hash_1|cheats|AimBot_v1|50
+# example_hash_2|cheats|WallHack_Pro|45
+
+# Инжекторы
+# example_hash_3|injectors|Extreme_Injector|55
+# example_hash_4|injectors|Process_Hacker|40
+
+# Мод-меню
+# example_hash_5|modmenu|Kiddions|35
+# example_hash_6|modmenu|Stand|40
+
+# Трейнеры
+# example_hash_7|trainers|WeMod|30
+# example_hash_8|trainers|CheatHappens|35
+
+# Инструменты
+# example_hash_9|tools|HWID_Spoofer|50
+# example_hash_10|tools|Driver_Mapper|55

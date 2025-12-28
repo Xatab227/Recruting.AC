@@ -1,0 +1,45 @@
+# Чёрный список сайтов
+# Домены, связанные с читами и запрещённым ПО
+# Каждый домен на отдельной строке
+
+# Форумы и сообщества
+unknowncheats.me
+mpgh.net
+guided-hacking.com
+fearless-assassins.com
+elitepvpers.com
+gamehacking.org
+cheatsquad.gg
+
+# Читы и трейнеры
+wemod.com
+cheatengine.org
+cheathappens.com
+megagames.com
+gamecopyworld.com
+
+# Инжекторы и инструменты
+extremeinjector.com
+processpatcher.com
+
+# Приватные читы (примеры доменов)
+projectinfinity.xyz
+aimware.net
+onetap.com
+skeet.cc
+gamesense.pub
+nixware.cc
+interium.cc
+fatality.win
+
+# Обход античитов
+ring0.cc
+anticheats.io
+
+# Спуферы
+hwid-spoofer.net
+aimjunkies.com
+
+# Торрент-трекеры с читами
+rutracker.org/forum/viewforum.php?f=
+nnm-club.me

@@ -1,0 +1,67 @@
+# Конфигурация подозрительных Discord серверов и каналов
+# Названия серверов и каналов, связанных с читами
+
+[servers]
+# Названия серверов (без учёта регистра, частичное совпадение)
+unknowncheats
+mpgh
+elitepvpers
+guided-hacking
+gamehacking
+cheat
+hack
+exploit
+bypass
+spoofer
+inject
+aimbot
+wallhack
+modmenu
+rage
+legit
+hvh
+paste
+crack
+loader
+undetected
+fivem cheat
+gta mod
+valorant cheat
+apex cheat
+fortnite cheat
+rust cheat
+cs2 cheat
+csgo cheat
+warzone cheat
+pubg cheat
+r6 cheat
+eft cheat
+tarkov cheat
+
+[channels]
+# Названия каналов
+cheat-discussion
+hack-talk
+bypass-methods
+inject-help
+aimbot-config
+esp-settings
+spoofer-support
+loader-download
+crack-release
+paste-bin
+config-share
+source-code
+leaks
+dumps
+accounts
+combos
+methods
+tutorials
+free-cheats
+paid-cheats
+private-cheats
+showcase
+media
+proof
+vouches

@@ -1,0 +1,18 @@
+# ninja log v5
+1	1920	1766944698965109961	CMakeFiles/ForensicScanner.dir/src/main.cpp.obj	6e562e911b19146e
+1921	2811	1766944699853118009	CMakeFiles/ForensicScanner.dir/src/RiskCalculator.cpp.obj	a91f4c3599b28ec0
+2	3023	1766944700069119943	CMakeFiles/ForensicScanner.dir/src/Logger.cpp.obj	17e0750a7b456677
+1	3188	1766944700233121376	CMakeFiles/ForensicScanner.dir/src/Config.cpp.obj	9345137bc858b9d4
+2	3985	1766944701029128322	CMakeFiles/ForensicScanner.dir/src/HashScanner.cpp.obj	640d53b0fb66f7f9
+2811	5289	1766944702333139225	CMakeFiles/ForensicScanner.dir/src/UI/MainWindow.cpp.obj	cd176deab0913f4e
+3	3865	1766944733405290726	CMakeFiles/ForensicScanner.dir/src/Utils.cpp.obj	88845f6d2e59c96
+3	4944	1766944734481293316	CMakeFiles/ForensicScanner.dir/libs/imgui/imgui_demo.cpp.obj	e02964874b6c7cf5
+4	5906	1766944735445295534	CMakeFiles/ForensicScanner.dir/libs/imgui/imgui_draw.cpp.obj	db040a4021fafdf9
+3865	6386	1766944735925296612	CMakeFiles/ForensicScanner.dir/libs/imgui/imgui_tables.cpp.obj	580df8d89e9b80b2
+5906	7238	1766944736777298448	CMakeFiles/ForensicScanner.dir/libs/imgui/backends/imgui_impl_win32.cpp.obj	8df8a9debc91994
+3	7339	1766944736877298663	CMakeFiles/ForensicScanner.dir/src/BrowserScanner.cpp.obj	3a2cf6e1f8649ca
+3	7458	1766944736997298921	CMakeFiles/ForensicScanner.dir/src/DiscordScanner.cpp.obj	783d6e9cd8f6c3ac
+6386	7984	1766944737521299995	CMakeFiles/ForensicScanner.dir/libs/imgui/backends/imgui_impl_dx11.cpp.obj	828e4425ac2c786
+3	8913	1766944738453301863	CMakeFiles/ForensicScanner.dir/libs/imgui/imgui.cpp.obj	908c074b0578465b
+4944	10336	1766944739873304562	CMakeFiles/ForensicScanner.dir/libs/imgui/imgui_widgets.cpp.obj	9490a6c2bad71cf0
+10336	10462	1766944739997304794	bin/ForensicScanner.exe	b89efa2fd1ff8063
