@@ -1,0 +1,45 @@
+# Ключевые слова для поиска
+# Каждое слово на отдельной строке
+# Строки, начинающиеся с #, игнорируются
+
+# Русские ключевые слова
+чит
+читы
+читер
+хак
+взлом
+обход
+спуфер
+
+# Английские ключевые слова
+cheat
+cheats
+hack
+hacks
+inject
+injector
+aimbot
+wallhack
+esp
+bypass
+spoofer
+trigger
+triggerbot
+norecoil
+speedhack
+godmode
+softaim
+silent aim
+rage hack
+legit hack
+hvh
+modmenu
+mod menu
+trainer
+undetected
+external
+internal
+kernel
+driver cheat
+ring0
+usermode

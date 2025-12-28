@@ -1,0 +1,51 @@
+# Чёрный список Discord серверов и каналов
+# Названия серверов/каналов, связанных с читами
+# Строки, начинающиеся с #, игнорируются
+
+# Общие названия
+cheat
+cheats
+hack
+hacks
+exploit
+exploits
+
+# Названия серверов/каналов по играм
+csgo-cheat
+valorant-cheat
+apex-cheat
+fortnite-cheat
+rust-cheat
+tarkov-cheat
+pubg-cheat
+
+# Типы читов
+aimbot
+wallhack
+esp-cheats
+triggerbot
+spoofer
+hwid-spoofer
+bypass
+
+# HvH/легит сообщества
+hvh
+legit-cheating
+rage-cfg
+rage-config
+
+# Продажа
+selling-cheats
+buy-cheats
+cheap-cheats
+free-cheats
+
+# Названия популярных провайдеров
+neverlose
+skeet
+gamesense
+onetap
+aimware
+nixware
+fatality
+interium

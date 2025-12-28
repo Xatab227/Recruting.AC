@@ -1,0 +1,49 @@
+# Чёрный список сайтов
+# Домены сайтов, связанных с читами
+# Строки, начинающиеся с #, игнорируются
+
+# Популярные форумы по читам
+unknowncheats.me
+mpgh.net
+elitepvpers.com
+cheatengine.org
+gamehacking.com
+guided-hacking.com
+
+# Продавцы читов
+wemod.com
+cheatautomation.com
+aimjunkies.com
+artificialaiming.net
+projectbase.cc
+interium.pw
+neverlose.cc
+gamesense.pub
+onetap.com
+spirthack.me
+nixware.cc
+fatality.win
+pandora.gg
+ev0lve.xyz
+aimware.net
+skeet.cc
+
+# Русскоязычные ресурсы
+blast.hk
+yougame.biz
+ru-cheats.ru
+chemax.ru
+
+# Продажа аккаунтов / услуг
+g2g.com
+playerauctions.com
+eldorado.gg
+
+# Обход банов
+hwid.shop
+hwid-spoofer.com
+
+# Другие подозрительные
+pastebin.com/cheat
+github.com/cheat
+gitlab.com/cheat
