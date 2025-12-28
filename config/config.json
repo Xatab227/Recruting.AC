@@ -1,0 +1,35 @@
+{
+  "scanDirectories": [
+    "%APPDATA%\\Microsoft\\Windows\\Recent",
+    "C:\\Windows\\Prefetch"
+  ],
+  "keywords": [
+    "чит",
+    "cheat",
+    "vanish",
+    "hack",
+    "mod",
+    "injector",
+    "bypass",
+    "aimbot"
+  ],
+  "suspiciousDomains": [
+    "cheatengine.org",
+    "unknowncheats.me",
+    "guidedhacking.com",
+    "mpgh.net"
+  ],
+  "suspiciousDiscordServers": [
+    "cheat",
+    "hack",
+    "mod",
+    "bypass"
+  ],
+  "hashDatabasePath": "config/hash_database.txt",
+  "weights": {
+    "hashMatch": 40,
+    "keyword": 15,
+    "domain": 20,
+    "discord": 25
+  }
+}
