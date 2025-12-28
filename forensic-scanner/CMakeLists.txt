@@ -16,12 +16,15 @@ endif()
 
 # Настройки компиляции
 if(MSVC)
-    # Отключаем предупреждения о небезопасных функциях
+    # Visual Studio
     add_definitions(-D_CRT_SECURE_NO_WARNINGS)
-    # Unicode
     add_definitions(-DUNICODE -D_UNICODE)
-    # Статическая линковка runtime
     set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
+elseif(MINGW)
+    # MinGW
+    add_definitions(-DUNICODE -D_UNICODE)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static -static-libgcc -static-libstdc++")
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static -mwindows")
 endif()
 
 # Пути к исходникам
@@ -52,7 +55,7 @@ set(HEADERS
     ${INCLUDE_DIR}/MainWindow.h
 )
 
-# ImGui файлы (нужно скачать из https://github.com/ocornut/imgui)
+# ImGui файлы
 set(IMGUI_DIR ${LIBS_DIR}/imgui)
 set(IMGUI_SOURCES
     ${IMGUI_DIR}/imgui.cpp
@@ -87,23 +90,20 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     ole32
     oleaut32
     uuid
+    imm32
+    gdi32
 )
 
-# Копируем конфигурационные файлы в директорию сборки
+# Копируем конфигурационные файлы
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory
     ${CMAKE_CURRENT_SOURCE_DIR}/config
     $<TARGET_FILE_DIR:${PROJECT_NAME}>/config
 )
 
-# Установка
-install(TARGETS ${PROJECT_NAME} DESTINATION bin)
-install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/config DESTINATION bin)
-
-# Информация о сборке
+# Информация
 message(STATUS "")
-message(STATUS "=== Forensic Scanner Build Configuration ===")
-message(STATUS "Version: ${PROJECT_VERSION}")
-message(STATUS "C++ Standard: ${CMAKE_CXX_STANDARD}")
+message(STATUS "=== Forensic Scanner ===")
+message(STATUS "Compiler: ${CMAKE_CXX_COMPILER_ID}")
 message(STATUS "Build Type: ${CMAKE_BUILD_TYPE}")
 message(STATUS "")
